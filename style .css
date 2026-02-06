@@ -1,0 +1,83 @@
+/* General reset & base styles */
+body {
+  font-family: "Tahoma", "Arial", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #006400;
+  color: #d4af37;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 12px;
+}
+
+nav a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: rgba(212, 175, 55, 0.2);
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #e8f5e9;
+  text-align: center;
+  padding: 1.2rem;
+  color: #006400;
+  font-size: 0.95rem;
+  border-top: 1px solid #c8e6c9;
+}
+
+/* Links in main content */
+main a {
+  color: #006400;
+  font-weight: bold;
+}
